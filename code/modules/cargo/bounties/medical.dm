@@ -125,3 +125,43 @@
 	if(patient)
 		return TRUE
 	return FALSE
+
+/datum/bounty/item/medical/medkit
+	name = "Stocked Medical Kits"
+	description = "Our medical supplies are depleted after a station-wide emergency. Ship fully stocked first aid kits."
+	reward = CARGO_CRATE_VALUE * 6
+	required_count = 3
+	wanted_types = list(/obj/item/storage/medkit = TRUE)
+
+/datum/bounty/item/medical/blood_bag
+	name = "Blood Bags"
+	description = "The blood bank is critically low. Ship us O-negative blood bags for emergency transfusions."
+	reward = CARGO_CRATE_VALUE * 5
+	required_count = 4
+	wanted_types = list(/obj/item/reagent_containers/blood = TRUE)
+
+/datum/bounty/item/medical/defibrillator
+	name = "Defibrillator"
+	description = "Cardiac arrests are on the rise at CentCom. Ship a functioning defibrillator immediately."
+	reward = CARGO_CRATE_VALUE * 8
+	wanted_types = list(/obj/item/defibrillator = TRUE)
+
+/datum/bounty/item/medical/medicine
+	name = "Bicaridine Pills"
+	description = "We're running dangerously low on bicaridine. Ship us some pill bottles to restock."
+	reward = CARGO_CRATE_VALUE * 6
+	required_count = 2
+	wanted_types = list(/obj/item/storage/pill_bottle = TRUE)
+
+/datum/bounty/item/medical/hypospray
+	name = "Hypospray"
+	description = "Our rapid response team needs a hypospray for field operations. Ship one with our gratitude."
+	reward = CARGO_CRATE_VALUE * 10
+	wanted_types = list(/obj/item/reagent_containers/hypospray/medipen = TRUE)
+
+/datum/bounty/item/medical/bodybag
+	name = "Body Bags"
+	description = "After a tragic accident, CentCom morgue needs more body bags. Ship them with discretion."
+	reward = CARGO_CRATE_VALUE * 4
+	required_count = 5
+	wanted_types = list(/obj/item/bodybag = TRUE)

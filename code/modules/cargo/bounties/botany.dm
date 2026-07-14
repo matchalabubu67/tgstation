@@ -225,3 +225,42 @@
 /datum/bounty/item/botany/cucumber
 	name = "Cucumbers"
 	wanted_types = list(/obj/item/food/grown/cucumber = TRUE)
+
+/datum/bounty/item/botany/corn
+	name = "Corn"
+	wanted_types = list(/obj/item/food/grown/corn = TRUE)
+	foodtype = "cornbread"
+
+/datum/bounty/item/botany/berries
+	name = "Berries"
+	wanted_types = list(/obj/item/food/grown/berries = TRUE)
+	foodtype = "pie"
+
+/datum/bounty/item/botany/cherries
+	name = "Cherries"
+	wanted_types = list(/obj/item/food/grown/cherries = TRUE)
+	foodtype = "dessert"
+
+/datum/bounty/item/botany/grapes
+	name = "Grapes"
+	wanted_types = list(/obj/item/food/grown/grapes = TRUE)
+	foodtype = "wine"
+
+/datum/bounty/item/botany/carrot
+	name = "Carrots"
+	wanted_types = list(/obj/item/food/grown/carrot = TRUE)
+	foodtype = "salad"
+
+/datum/bounty/item/botany/potato
+	name = "Potatoes"
+	wanted_types = list(/obj/item/food/grown/potato = TRUE)
+
+/datum/bounty/item/botany/pumpkin
+	name = "Pumpkins"
+	wanted_types = list(/obj/item/food/grown/pumpkin = TRUE)
+	foodtype = "pie"
+
+/datum/bounty/item/botany/apple
+	name = "Apples"
+	wanted_types = list(/obj/item/food/grown/apple = TRUE)
+	foodtype = "pie"

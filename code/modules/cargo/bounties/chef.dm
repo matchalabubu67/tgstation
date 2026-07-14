@@ -164,3 +164,51 @@
 	reward = CARGO_CRATE_VALUE * 10
 	required_count = 7
 	wanted_types = list(/obj/item/food/pickle = TRUE)
+
+/datum/bounty/item/chef/fries
+	name = "Fries"
+	description = "Central Command's cafeteria is running low on fries. Ship a batch to help restock."
+	reward = CARGO_CRATE_VALUE * 4
+	required_count = 3
+	wanted_types = list(/obj/item/food/fries = TRUE)
+
+/datum/bounty/item/chef/burger
+	name = "Burgers"
+	description = "Admiral Thompson's favorite food is burgers. Ship some for his birthday celebration."
+	reward = CARGO_CRATE_VALUE * 6
+	required_count = 3
+	wanted_types = list(/obj/item/food/burger = TRUE)
+
+/datum/bounty/item/chef/pizza
+	name = "Pizza"
+	description = "Central Command is hosting a pizza party for morale. Ship a full pizza to contribute."
+	reward = CARGO_CRATE_VALUE * 8
+	wanted_types = list(/obj/item/food/pizza = TRUE)
+
+/datum/bounty/item/chef/taco
+	name = "Tacos"
+	description = "It's Taco Tuesday at CentCom! Ship some tacos to keep the tradition alive."
+	reward = CARGO_CRATE_VALUE * 7
+	required_count = 4
+	wanted_types = list(/obj/item/food/taco = TRUE)
+
+/datum/bounty/item/chef/spaghetti
+	name = "Spaghetti"
+	description = "The Italian ambassador is visiting CentCom. Ship some proper spaghetti to impress them."
+	reward = CARGO_CRATE_VALUE * 9
+	required_count = 2
+	wanted_types = list(/obj/item/food/pasta/boiledspaghetti = TRUE)
+
+/datum/bounty/item/chef/donuts
+	name = "Assorted Donuts"
+	description = "Security at CentCom is demanding more variety in their donut selection."
+	reward = CARGO_CRATE_VALUE * 8
+	required_count = 5
+	wanted_types = list(/obj/item/food/donut = TRUE)
+
+/datum/bounty/item/chef/cookie
+	name = "Cookies"
+	description = "The vice president's daughter is having a bake sale. Ship cookies to support her entrepreneurial spirit."
+	reward = CARGO_CRATE_VALUE * 5
+	required_count = 6
+	wanted_types = list(/obj/item/food/cookie = TRUE)

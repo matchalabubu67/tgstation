@@ -281,3 +281,56 @@
 
 /datum/bounty/item/assistant/fish/fluid/can_ship_fish(obj/item/fish/fishie)
 	return (fluid_type in GLOB.fish_compatible_fluid_types[fishie.required_fluid_type])
+
+/datum/bounty/item/assistant/metal_sheets
+	name = "Metal Sheets"
+	description = "Our construction projects are behind schedule due to material shortages. Ship metal sheets immediately."
+	reward = CARGO_CRATE_VALUE * 3
+	wanted_types = list(/obj/item/stack/sheet/iron = TRUE)
+
+/datum/bounty/item/assistant/glass_sheets
+	name = "Glass Sheets"
+	description = "The windows in Section D are all broken. Ship glass sheets so we can replace them."
+	reward = CARGO_CRATE_VALUE * 3
+	wanted_types = list(/obj/item/stack/sheet/glass = TRUE)
+
+/datum/bounty/item/assistant/cable_coil
+	name = "Cable Coil"
+	description = "We're rewiring an entire deck and need more cable. Ship a full coil to CentCom."
+	reward = CARGO_CRATE_VALUE * 3
+	wanted_types = list(/obj/item/stack/cable_coil = TRUE)
+
+/datum/bounty/item/assistant/clothes
+	name = "Spare Uniforms"
+	description = "The laundry at CentCom has been backed up for weeks. Ship spare jumpsuits to tide us over."
+	reward = CARGO_CRATE_VALUE * 4
+	required_count = 5
+	wanted_types = list(/obj/item/clothing/under = TRUE)
+
+/datum/bounty/item/assistant/plant
+	name = "Live Plants"
+	description = "Commander Green wants to brighten up her office. Ship some live potted plants."
+	reward = CARGO_CRATE_VALUE * 5
+	required_count = 3
+	wanted_types = list(/obj/item/grown = TRUE)
+
+/datum/bounty/item/assistant/plushie
+	name = "Plushies"
+	description = "The recreation department wants to stock the crane game. Ship an assortment of plushies."
+	reward = CARGO_CRATE_VALUE * 7
+	required_count = 4
+	wanted_types = list(/obj/item/toy/plush = TRUE)
+
+/datum/bounty/item/assistant/beaker
+	name = "Beakers"
+	description = "Our chemistry lab had a containment breach. We need replacement beakers urgently."
+	reward = CARGO_CRATE_VALUE * 3
+	required_count = 5
+	wanted_types = list(/obj/item/reagent_containers/cup/beaker = TRUE)
+
+/datum/bounty/item/assistant/lightbulb
+	name = "Light Bulbs"
+	description = "Half the lights at CentCom are burnt out. Ship light bulbs so we can see what we're doing."
+	reward = CARGO_CRATE_VALUE * 4
+	required_count = 10
+	wanted_types = list(/obj/item/light/bulb = TRUE)

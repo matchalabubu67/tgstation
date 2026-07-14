@@ -227,3 +227,45 @@
 
 /datum/bounty/item/contraband/applies_to(obj/O)
 	return HAS_TRAIT(O, TRAIT_CONTRABAND)
+
+/datum/bounty/item/security/handcuffs
+	name = "Handcuffs"
+	description = "CentCom Security is running low on restraints after a major riot. Ship handcuffs immediately."
+	reward = CARGO_CRATE_VALUE * 4
+	required_count = 5
+	wanted_types = list(/obj/item/restraints/handcuffs = TRUE)
+
+/datum/bounty/item/security/baton
+	name = "Stun Batons"
+	description = "Station 7's security force had their batons stolen. Ship replacements so they can maintain order."
+	reward = CARGO_CRATE_VALUE * 8
+	required_count = 3
+	wanted_types = list(/obj/item/melee/baton/security/loaded = TRUE)
+
+/datum/bounty/item/security/flash
+	name = "Flashes"
+	description = "Security training requires flash devices. Ship a batch for the next training session."
+	reward = CARGO_CRATE_VALUE * 5
+	required_count = 4
+	wanted_types = list(/obj/item/assembly/flash = TRUE)
+
+/datum/bounty/item/security/barrier
+	name = "Deployable Barriers"
+	description = "CentCom is expecting civil unrest. Ship deployable barriers to prepare crowd control measures."
+	reward = CARGO_CRATE_VALUE * 6
+	required_count = 3
+	wanted_types = list(/obj/item/grenade/barrier = TRUE)
+
+/datum/bounty/item/security/seclight
+	name = "Security Flashlights"
+	description = "Station 12 lost power in their security wing. Ship tactical flashlights until repairs are complete."
+	reward = CARGO_CRATE_VALUE * 4
+	required_count = 4
+	wanted_types = list(/obj/item/flashlight/seclite = TRUE)
+
+/datum/bounty/item/security/evidence_bag
+	name = "Evidence Bags"
+	description = "A major investigation at CentCom has depleted our evidence storage supplies. Ship replacement bags."
+	reward = CARGO_CRATE_VALUE * 3
+	required_count = 10
+	wanted_types = list(/obj/item/evidencebag = TRUE)

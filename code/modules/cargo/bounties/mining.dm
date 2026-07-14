@@ -84,3 +84,41 @@
 	reward = CARGO_CRATE_VALUE * 9
 	required_count = 3
 	wanted_types = list(/obj/item/food/grown/ash_flora/mushroom_leaf = TRUE)
+
+/datum/bounty/item/mining/ore_iron
+	name = "Iron Ore"
+	description = "CentCom's construction projects need raw materials. Ship iron ore for processing."
+	reward = CARGO_CRATE_VALUE * 4
+	wanted_types = list(/obj/item/stack/ore/iron = TRUE)
+
+/datum/bounty/item/mining/ore_plasma
+	name = "Plasma Ore"
+	description = "Our plasma refinement facility is running low on raw plasma. Ship ore immediately."
+	reward = CARGO_CRATE_VALUE * 6
+	wanted_types = list(/obj/item/stack/ore/plasma = TRUE)
+
+/datum/bounty/item/mining/ore_gold
+	name = "Gold Ore"
+	description = "The Vice President wants gold-plated fixtures in his office. Ship gold ore for smelting."
+	reward = CARGO_CRATE_VALUE * 8
+	wanted_types = list(/obj/item/stack/ore/gold = TRUE)
+
+/datum/bounty/item/mining/ore_diamond
+	name = "Diamonds"
+	description = "Commander Zena's engagement requires a diamond ring. Ship uncut diamonds for the jeweler."
+	reward = CARGO_CRATE_VALUE * 12
+	wanted_types = list(/obj/item/stack/ore/diamond = TRUE)
+
+/datum/bounty/item/mining/goliath_hide
+	name = "Goliath Hides"
+	description = "Our armor research team wants to study goliath hide properties. Ship several samples."
+	reward = CARGO_CRATE_VALUE * 7
+	required_count = 3
+	wanted_types = list(/obj/item/stack/sheet/animalhide/goliath_hide = TRUE)
+
+/datum/bounty/item/mining/survival_knife
+	name = "Survival Knives"
+	description = "CentCom's wilderness survival training needs additional equipment. Ship survival knives."
+	reward = CARGO_CRATE_VALUE * 6
+	required_count = 3
+	wanted_types = list(/obj/item/knife/combat/survival = TRUE)

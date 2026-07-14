@@ -141,3 +141,44 @@
 	name = "Refined Dimensional Core"
 	description = "We're trying to save money on our annual renovations at CentCom. Send us a dimensional core."
 	wanted_types = list(/obj/item/assembly/signaler/anomaly/dimensional = TRUE)
+
+/datum/bounty/item/science/circuit_board
+	name = "Circuit Boards"
+	description = "Our robotics lab needs spare circuit boards for repairs. Ship a variety of boards."
+	reward = CARGO_CRATE_VALUE * 5
+	required_count = 3
+	wanted_types = list(/obj/item/circuitboard = TRUE)
+
+/datum/bounty/item/science/slime_extract
+	name = "Slime Extracts"
+	description = "Xenobiology research requires fresh slime extracts. Ship various colored extracts for study."
+	reward = CARGO_CRATE_VALUE * 8
+	required_count = 4
+	wanted_types = list(/obj/item/slime_extract = TRUE)
+
+/datum/bounty/item/science/plasma_sheet
+	name = "Solid Plasma"
+	description = "Our material science division is researching plasma crystallization. Ship solid plasma sheets."
+	reward = CARGO_CRATE_VALUE * 6
+	required_count = 5
+	wanted_types = list(/obj/item/stack/sheet/mineral/plasma = TRUE)
+
+/datum/bounty/item/science/brain
+	name = "Positronic Brain"
+	description = "We're building new AI units and need positronic brains. Ship one that's ready for installation."
+	reward = CARGO_CRATE_VALUE * 12
+	wanted_types = list(/obj/item/mmi/posibrain = TRUE)
+
+/datum/bounty/item/science/telecrystal
+	name = "Telecrystals"
+	description = "Classified research project requires telecrystal samples. Ship them immediately with no questions asked."
+	reward = CARGO_CRATE_VALUE * 15
+	required_count = 3
+	wanted_types = list(/obj/item/stack/telecrystal = TRUE)
+
+/datum/bounty/item/science/nanites
+	name = "Nanite Programming"
+	description = "Our nanite research team needs programmed nanite disks for their experiments."
+	reward = CARGO_CRATE_VALUE * 10
+	required_count = 2
+	wanted_types = list(/obj/item/disk/nanite_program = TRUE)

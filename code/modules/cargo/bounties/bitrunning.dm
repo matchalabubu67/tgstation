@@ -53,3 +53,17 @@
 	reward = CARGO_CRATE_VALUE * 5
 	required_count = 1
 	wanted_types = list(/obj/item/clothing/under/color = TRUE)
+
+/datum/bounty/item/bitrunning/maintenance_loot
+	name = "Virtual Maintenance Supplies"
+	description = "Our inventory system flagged unusually high-quality maintenance tools in virtual domain simulations. Ship us some for analysis."
+	reward = CARGO_CRATE_VALUE * 4
+	required_count = 3
+	wanted_types = list(/obj/item/wrench = TRUE)
+
+/datum/bounty/item/bitrunning/virtual_food
+	name = "Domain Food Samples"
+	description = "Our nutritionists want to study the caloric density of virtually-rendered food items. Ship samples from any domain."
+	reward = CARGO_CRATE_VALUE * 5
+	required_count = 2
+	wanted_types = list(/obj/item/food = TRUE)
