@@ -46,3 +46,10 @@
 	reward = CARGO_CRATE_VALUE * 8
 	required_count = 1
 	wanted_types = list(/obj/item/toy/plush/nukeplushie = 1)
+
+/datum/bounty/item/bitrunning/ancient_artifact
+	name = "Ancient Jumpsuit"
+	description = "The archaeology department is researching pre-spaceflight era uniforms and could use an authentic specimen from one of the virtual domains. Any color will do."
+	reward = CARGO_CRATE_VALUE * 5
+	required_count = 1
+	wanted_types = list(/obj/item/clothing/under/color = TRUE)
